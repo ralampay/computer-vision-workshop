@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+.env.*
+
+# PyTorch / ML artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.trt
+*.weights
+*.ckpt
+
+# YOLO runs (default Ultralytics output folder)
+runs/
+
+# Data folders (if you download datasets locally)
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# Logs
+*.log
+logs/
+wandb/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cache
+*.pickle
+*.pkl
+*.npz
+*.npy
+.cache/
+__cache__/
+
+# Test / temp files
+*.tmp
+*.bak
+*.old
